@@ -1,7 +1,7 @@
 brojevi = []
 
 while True:
-    unos = input("Unesite broj ili ""done"" ako ste zavrsili sa unosom: ")
+    unos = input("Unesite broj ili 'Done' ako ste zavrsili sa unosom: ")
     
     if unos.lower() == 'done':
         break
@@ -10,7 +10,7 @@ while True:
         broj = float(unos)
         brojevi.append(broj)
     except ValueError:
-        print("Greska. Unesite broj ili ""done"" za kraj.")
+        print("Greska. Unesite broj ili 'Done' za kraj.")
 
 
 print(f"Broj unosa: {len(brojevi)}")

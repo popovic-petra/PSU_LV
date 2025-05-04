@@ -3,7 +3,7 @@
 
 ime_datoteke = input("Unesite ime datoteke: ")
 try:
-    with open(ime_datoteke, 'r') as datoteka:
+    with open(ime_datoteke, "r") as datoteka:
         ukupno = 0
         broj_linija = 0
 
