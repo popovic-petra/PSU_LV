@@ -10,9 +10,11 @@ import os
 import datetime
 
 # UCITAVANJE SLIKA
+path_train = "P:/3 - bezobrazovanje/0 - FERIT/2. godina 2024-2025/2. semestar/Strojno ucenje/gtsrb/Train"
+path_test = "P:/3 - bezobrazovanje/0 - FERIT/2. godina 2024-2025/2. semestar/Strojno ucenje/gtsrb/Test"
 
-train_dir = "P:/3 - bezobrazovanje/0 - FERIT/2. godina 2024-2025/2. semestar/Strojno ucenje/gtsrb/Train"
-test_dir = "P:/3 - bezobrazovanje/0 - FERIT/2. godina 2024-2025/2. semestar/Strojno ucenje/gtsrb/Test"
+train_dir = path_train
+test_dir = path_test
 
 img_height, img_width = 48, 48
 batch_size = 64
