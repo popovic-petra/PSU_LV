@@ -23,12 +23,14 @@ img = img.astype('float32')
 
 # TODO: ucitaj izgradenu mrezu
 
-
+model = models.load_model("najbolji_model.h5")
 
 # TODO: napravi predikciju za ucitanu sliku pomocu mreze
 
-
+np.argmax()
+predikcija = model.predict(img)
+oznaka = np.argmax(predikcija)
 
 # TODO: ispis rezultat u terminal
-
+print(f"Predviđena znamenka: {oznaka}")
 
